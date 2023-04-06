@@ -1,0 +1,81 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #13345b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 47px 80px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+.home {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #fdd504;
+}
+.home:hover {
+  font-size: 300%;
+  animation: anim2 500ms infinite;
+}
+@keyframes home {
+  0% {
+    opacity: 1;
+    transform: translateY(px);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.product {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #fdd504;
+}
+.product:hover {
+  font-size: 300%;
+}
+.contact {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #fd0404;
+}
+.contact:hover {
+  font-size: 300%;
+}
+.fa-cart-shopping {
+  color: rgba(253, 213, 4, 1);
+  font-size: 49px;
+}
+.fa-cart-shopping:hover {
+  font-size: 350%;
+}
