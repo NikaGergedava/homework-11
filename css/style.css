@@ -152,11 +152,11 @@ input[type="file"] {
   line-height: 39px;
   margin-top: 43px;
 }
-.buttons{
-    margin-top: 121px;
-    margin-bottom: 128px;
-    display: flex;
-    justify-content: space-between;
+.buttons {
+  margin-top: 121px;
+  margin-bottom: 128px;
+  display: flex;
+  justify-content: space-between;
 }
 .send_message {
   width: 630px;
@@ -184,4 +184,47 @@ input[type="file"] {
   color: #ffffff;
   border-style: none;
 }
+footer {
+  background-color: #13345b;
+  width: 1440px;
+  height: 200px;
 
+}
+.footer_icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 470px;
+}
+.fa-square-facebook {
+  font-size: 80px;
+  color: white;
+}
+.fa-square-facebook:hover{
+color: #15C1E7;
+ transform: translate(0, -10px);
+}
+.fa-instagram {
+  font-size: 80px;
+  color: white;
+}
+.fa-instagram.fa-instagram:hover{
+    color: #FB0110;
+ transform: translate(0, -10px);
+}
+.fa-twitter {
+  font-size: 80px;
+  color: white;
+}
+.fa-twitter:hover{
+color: #75A1F3;
+ transform: translate(0, -10px);
+}
+
+.fa-youtube {
+  font-size: 80px;
+  color: white;
+}
+.fa-youtube:hover{
+    color: #FDD504;
+ transform: translate(0, -10px);
+}
