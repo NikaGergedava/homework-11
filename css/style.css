@@ -27,29 +27,6 @@ ul {
   font-size: 300%;
   animation: anim2 500ms infinite;
 }
-@keyframes home {
-  0% {
-    opacity: 1;
-    transform: translateY(px);
-  }
-  25% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  75% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
 .product {
   font-family: "Inter";
   font-style: normal;
@@ -79,3 +56,132 @@ ul {
 .fa-cart-shopping:hover {
   font-size: 350%;
 }
+main {
+  width: 90%;
+  margin: 0 auto;
+  /* display: flex; */
+  align-items: center;
+}
+.main_title1 {
+  margin: 114px 0px 88px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #13345b;
+}
+.first_row {
+  display: flex;
+  justify-content: space-between;
+}
+.second_row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+
+label {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #13345b;
+}
+input {
+  margin-top: 8px;
+  width: 550px;
+  height: 58px;
+  background-color: #b3e9f5;
+  border-style: none;
+  outline: none;
+}
+.main_title2 {
+  margin-top: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #15c1e7;
+}
+.selector1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 32px;
+}
+input[type="radio"] {
+  width: 32px;
+  height: 32px;
+}
+.radio1 {
+  display: flex;
+  align-items: center;
+}
+.main_title3 {
+  margin-top: 65px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #15c1e7;
+}
+.selector2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin-top: 32px;
+}
+.checkbox1 {
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  width: 32px;
+  height: 32px;
+}
+input[type="file"] {
+  background-color: white;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 43px;
+}
+.buttons{
+    margin-top: 121px;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+.send_message {
+  width: 630px;
+  height: 108px;
+  border-radius: 15px;
+  background-color: #fdd504;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  border-style: none;
+}
+.reset {
+  width: 630px;
+  height: 108px;
+  border-radius: 15px;
+  background-color: #15c1e7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  border-style: none;
+}
+
